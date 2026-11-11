@@ -1,0 +1,511 @@
+{
+  "id": "overworld",
+  "name": "Willowmere Vale",
+  "kind": "overworld",
+  "theme": "over",
+  "music": "over",
+  "rooms": {
+    "0,0": {
+      "map": [
+        "TTTTTTTTTTTTTTTT",
+        "TTT..F....F..TTT",
+        "TT....qqqq....TT",
+        "T....qqqqqq....T",
+        "T....qqqqqq....T",
+        "T.B...qqqq...B.T",
+        "T..............T",
+        "T..T..B..B..T..T",
+        "T.F..........F.T",
+        "T....TTTTTTTTTTT",
+        "TT...TTTTTTTTTTT"
+      ],
+      "enemies": [
+        [
+          "slime",
+          2,
+          8
+        ],
+        [
+          "slime",
+          11,
+          8
+        ],
+        [
+          "slime",
+          3,
+          3
+        ]
+      ],
+      "npcs": [
+        {
+          "type": "sign",
+          "x": 11,
+          "y": 6,
+          "text": "SPRING OF REST\nWade into the glowing water to mend your wounds."
+        }
+      ]
+    },
+    "1,0": {
+      "map": [
+        "^^^MMMMMMMMMM^^^",
+        "^^^MMMMMMMMMM^^^",
+        "T..MMMMDDMMMM..T",
+        "T..B..,,,,..B..T",
+        "T.F...,,,,...F.T",
+        "WWWWWWW==WWWWWWW",
+        "WWWWWWW==WWWWWWW",
+        "T..B...,,...B..T",
+        "T.F...,,,,...F.T",
+        "T...R.,,,,.R...T",
+        "TTTTTT,,,,TTTTTT"
+      ],
+      "enemies": [
+        [
+          "pod",
+          2,
+          8
+        ],
+        [
+          "pod",
+          13,
+          3
+        ],
+        [
+          "slime",
+          4,
+          4
+        ]
+      ],
+      "warps": {
+        "D": {
+          "dungeon": "sunken-keep",
+          "back": {
+            "x": 7.5,
+            "y": 3,
+            "dir": "down"
+          }
+        }
+      }
+    },
+    "2,0": {
+      "map": [
+        "^^^^^^^^^^^^^^^^",
+        "^^^^^^^X^^^^^^^^",
+        "^R....,,,....R.^",
+        "^..R..,...R....^",
+        "^.....,..B.....^",
+        "^.R...,,,,,,R..^",
+        "^.....R....,...^",
+        "T..B......,,,..T",
+        "T.R.......,.R..T",
+        "T..........,...T",
+        "TTTTTTTTTT....TT"
+      ],
+      "enemies": [
+        [
+          "pod",
+          3,
+          4
+        ],
+        [
+          "pod",
+          12,
+          7
+        ],
+        [
+          "slime",
+          8,
+          5
+        ]
+      ],
+      "npcs": [
+        {
+          "type": "sign",
+          "x": 9,
+          "y": 2,
+          "text": "DANGER - ROCKFALL!\nThe old miners sealed their cave somewhere in these cliffs. Only a blast could open it now."
+        }
+      ],
+      "warps": {
+        "c": {
+          "to": "secret",
+          "x": 7.5,
+          "y": 8,
+          "dir": "up"
+        }
+      }
+    },
+    "0,1": {
+      "map": [
+        "TT...TTTTTTTTTTT",
+        "T.....F..B....TT",
+        "T..WWWWWWWW....T",
+        "T.WWWWWWWWWW...T",
+        "T.WWWWWWWWWW....",
+        "T.WWWWWWWWWW.,,,",
+        "T..WWWWWWWW.....",
+        "T.....B...F...BT",
+        "T.F..R....B...TT",
+        "T....TTTTTTTTTTT",
+        "TT...TTTTTTTTTTT"
+      ],
+      "enemies": [
+        [
+          "slime",
+          13,
+          2
+        ],
+        [
+          "slime",
+          4,
+          7
+        ],
+        [
+          "pod",
+          13,
+          8
+        ]
+      ],
+      "items": [
+        {
+          "item": "bigcoin",
+          "x": 1,
+          "y": 8,
+          "id": "lake_coin"
+        }
+      ]
+    },
+    "1,1": {
+      "map": [
+        "TTTTTT,,,,TTTTTT",
+        "T..B..,,,,..B..T",
+        "T.F...,,,,....FT",
+        "TB..R.,,,,.R..BT",
+        ",,,,,,,,,,,,,,,,",
+        ",,,,,,,,,,,,,,,,",
+        "....F.,,,,.F....",
+        "TB..R.,,,,.R..BT",
+        "T.F...,,,,...F.T",
+        "T..B..,,,,..B..T",
+        "TTTTTT,,,,TTTTTT"
+      ],
+      "enemies": [
+        [
+          "slime",
+          3,
+          6
+        ],
+        [
+          "slime",
+          12,
+          8
+        ],
+        [
+          "slime",
+          8,
+          2
+        ]
+      ],
+      "npcs": [
+        {
+          "type": "sign",
+          "x": 5,
+          "y": 2,
+          "text": "N: THE SUNKEN KEEP\nE: MERCHANT'S CAVE\nW: MIRROR LAKE\nSE: GULL'S POINT"
+        }
+      ]
+    },
+    "2,1": {
+      "map": [
+        "^^^^^^^^^^....^^",
+        "^^^^C^^^^^....T^",
+        "T...,.....,,..TT",
+        "T...,...F.,,...T",
+        ",,,,,,,,,,,,...T",
+        ",,,,,,,,,,,,..BT",
+        "..B.....R...,..T",
+        "T..F..R.....,..T",
+        "T.B.......F.,..T",
+        "T.....B...,,,,.T",
+        "TTTTTTTTTT....TT"
+      ],
+      "enemies": [
+        [
+          "slime",
+          8,
+          7
+        ],
+        [
+          "slime",
+          5,
+          4
+        ],
+        [
+          "pod",
+          13,
+          8
+        ]
+      ],
+      "npcs": [
+        {
+          "type": "sign",
+          "x": 5,
+          "y": 2,
+          "text": "MERCHANT'S CAVE\nBombs, hearts and more! Just up the path."
+        }
+      ],
+      "warps": {
+        "C": {
+          "to": "shop",
+          "x": 7.5,
+          "y": 8,
+          "dir": "up"
+        }
+      }
+    },
+    "0,2": {
+      "map": [
+        "TT...TTTTTTTTTTT",
+        "T....B.T..B..T.T",
+        "T.T..B.T.T..T..T",
+        "T.T.TT.T.TTTT.TT",
+        "T...B......B....",
+        "TTT.TTTT.TTT....",
+        "T.F.T..B.T.B....",
+        "T.TTT.TT.T.TTT.T",
+        "T.....T.......FT",
+        "T.F.B.T..B.F...T",
+        "TTTTTTTTTTTTTTTT"
+      ],
+      "enemies": [
+        [
+          "slime",
+          10,
+          8
+        ],
+        [
+          "slime",
+          13,
+          4
+        ],
+        [
+          "pod",
+          1,
+          4
+        ]
+      ],
+      "chests": [
+        {
+          "x": 1,
+          "y": 9,
+          "item": "coins20",
+          "id": "sw_chest"
+        }
+      ]
+    },
+    "1,2": {
+      "map": [
+        "TTTTTT,,,,TTTTTT",
+        "T.....,,,,.....T",
+        "T.rrr.,,,,.rrr.T",
+        "T.wdw.,,,,.wdw.T",
+        ",,,,,,,,,,,,,,,,",
+        ".F..B.,,,,..B.F.",
+        "..F...,,,,....F.",
+        "T..B..,,,,..B..T",
+        "T.F...,,,,...F.T",
+        "T...F......F...T",
+        "TTTTTTTTTTTTTTTT"
+      ],
+      "npcs": [
+        {
+          "type": "sign",
+          "x": 5,
+          "y": 1,
+          "text": "WILLOWMERE VILLAGE\nNorth: the Crossroads"
+        },
+        {
+          "type": "elder",
+          "x": 10,
+          "y": 6,
+          "intro": true,
+          "text": [
+            "Wren! Thank the stars you're awake.",
+            "Last night a thief stole our two sacred relics: the EMBER OF THE VALE and the TIDE PEARL.",
+            "The Ember was carried into the Sunken Keep, north past the crossroads.",
+            "The Pearl was hidden in a sea cave at Gull's Point, to the southeast. They say the cliffs there must be blasted open.",
+            "Without the relics our forest will wither. Please, bring them home!",
+            "Your blade cuts through bushes. Coins and hearts often hide inside them."
+          ]
+        }
+      ]
+    },
+    "2,2": {
+      "map": [
+        "TTTTTTTTTT....TT",
+        "T..F.......B...T",
+        "T.B....SSSS.^^^T",
+        "T....SSSSSSS^^^T",
+        "...SSSSSSSSS^X^T",
+        "..SSSSSSSSSSSSWW",
+        ".SSSSSSSSSSSWWWW",
+        "TSSSSSSSSSWWWWWW",
+        "TSSSSSSSWWWWWWWW",
+        "TSSSSWWWWWWWWWWW",
+        "TWWWWWWWWWWWWWWW"
+      ],
+      "enemies": [
+        [
+          "slime",
+          6,
+          4
+        ],
+        [
+          "slime",
+          9,
+          6
+        ],
+        [
+          "slime",
+          4,
+          7
+        ]
+      ],
+      "items": [
+        {
+          "item": "bigcoin",
+          "x": 2,
+          "y": 9,
+          "id": "beach_coin"
+        }
+      ],
+      "npcs": [
+        {
+          "type": "sign",
+          "x": 2,
+          "y": 1,
+          "text": "GULL'S POINT\nFishers swear a sea cave hides behind the cracked cliff here. If only something could blast it open..."
+        }
+      ],
+      "warps": {
+        "c": {
+          "dungeon": "tidewater-grotto",
+          "back": {
+            "x": 13,
+            "y": 5,
+            "dir": "down"
+          }
+        }
+      }
+    },
+    "shop": {
+      "theme": "cave",
+      "music": "calm",
+      "map": [
+        "################",
+        "################",
+        "##____________##",
+        "##_t________t_##",
+        "##____________##",
+        "##____________##",
+        "##____________##",
+        "##____________##",
+        "##____________##",
+        "#######EE#######",
+        "################"
+      ],
+      "npcs": [
+        {
+          "type": "merchant",
+          "x": 7.5,
+          "y": 3,
+          "text": [
+            "Welcome, welcome! Walk over anything you'd like to buy.",
+            "BOMBS x4: 10 coins\nHEART CONTAINER: 30 coins\nRED TONIC (full heal): 6 coins"
+          ]
+        }
+      ],
+      "shop": [
+        {
+          "item": "bombs4",
+          "price": 10,
+          "x": 4.5,
+          "y": 5.5
+        },
+        {
+          "item": "heartc",
+          "price": 30,
+          "x": 7.5,
+          "y": 5.5,
+          "once": true,
+          "id": "shop_hc"
+        },
+        {
+          "item": "tonic",
+          "price": 6,
+          "x": 10.5,
+          "y": 5.5
+        }
+      ],
+      "warps": {
+        "E": {
+          "to": "2,1",
+          "x": 4,
+          "y": 2,
+          "dir": "down"
+        }
+      }
+    },
+    "secret": {
+      "theme": "cave",
+      "music": "calm",
+      "map": [
+        "################",
+        "################",
+        "##____________##",
+        "##_t________t_##",
+        "##____________##",
+        "##____________##",
+        "##____________##",
+        "##____________##",
+        "##____________##",
+        "#######EE#######",
+        "################"
+      ],
+      "items": [
+        {
+          "item": "heartc",
+          "x": 7.5,
+          "y": 4,
+          "id": "secret_hc"
+        },
+        {
+          "item": "bigcoin",
+          "x": 5,
+          "y": 6,
+          "id": "sc1"
+        },
+        {
+          "item": "bigcoin",
+          "x": 7.5,
+          "y": 6.5,
+          "id": "sc2"
+        },
+        {
+          "item": "bigcoin",
+          "x": 10,
+          "y": 6,
+          "id": "sc3"
+        }
+      ],
+      "warps": {
+        "E": {
+          "to": "2,0",
+          "x": 7,
+          "y": 2,
+          "dir": "down"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "title": "WREN",
+  "subtitle": "AND THE SUNKEN KEEP",
+  "start": { "room": "overworld:1,2", "x": 7.5, "y": 7, "dir": "up" },
+  "relics": [
+    { "id": "ember", "name": "EMBER OF THE VALE", "text": "Its warmth floods the old keep, and the brambles shrink back into the dark." },
+    { "id": "pearl", "name": "TIDE PEARL", "text": "It glows like a small moon. Far away, you can hear the tide turn." }
+  ],
+  "areas": ["overworld.json", "sunken-keep.json", "tidewater-grotto.json"],
+  "soundtrack": "soundtrack.json"
+}

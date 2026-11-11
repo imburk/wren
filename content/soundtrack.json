@@ -1,0 +1,47 @@
+{
+  "note": "Each slot is one area theme. The game plays its built-in band score unless you load your own audio file for a slot from the in-game menu. The lyrics and style text are written for this game and are free to use for making sung versions.",
+  "slots": [
+    {
+      "id": "over",
+      "title": "Ember Road",
+      "where": "Overworld",
+      "style": "Anthemic alternative pop-rock, 96 BPM, A minor. Half-time stomping drums and hand claps, pulsing piano, deep bass, huge 'whoa-oh' gang vocals in the chorus, raspy male lead vocal, big arena reverb. Starts small and explodes at the chorus.",
+      "lyrics": "[Verse 1]\nWoke up to ashes on the windowsill,\nThe bells are silent and the vale is still,\nGot a borrowed blade and a hood of gold,\nAnd a promise made to the ones I hold.\n\n[Pre-Chorus]\nSo I'll walk till the morning breaks,\nEvery step that the long road takes...\n\n[Chorus]\nWhoa-oh, light the road, light the road ahead,\nThrough the thorn and the stone where the brave have tread,\nWhoa-oh, I will carry home the fire we lost,\nNo matter the miles, no matter the frost.\n\n[Verse 2]\nSlimes in the meadow and the crows on the wire,\nEvery shadow tells me leave it, let it expire,\nBut I hear my grandmother's voice in the pines:\n\"Little light, little light, you were born to shine.\"\n\n[Bridge]\nAnd if I fall, I'll rise again,\nHearts in my hand like a lantern flame...\n\n[Chorus]"
+    },
+    {
+      "id": "dun",
+      "title": "Hold the Line",
+      "where": "The Sunken Keep",
+      "style": "Dark cinematic alt-rock, 76 BPM, D minor. Slow tribal floor toms, low piano, droning bass and strings, hushed lead vocal, distant choir hums. Tense and echoing, like walking through a flooded castle.",
+      "lyrics": "[Verse 1]\nIn the halls where the old stones weep,\nSomething's breathing in the Sunken Keep,\nEvery torch is a heartbeat low,\nEvery echo whispers \"turn back, go.\"\n\n[Chorus]\nHold the line, hold the line,\nDon't let the dark get inside,\nIron heart and steady eyes,\nI'll walk where the brambles hide.\n\n[Verse 2]\nWater rising on the broken stair,\nSkeletons dancing on the midnight air,\nI keep a small key close to my chest,\nI'll sleep when the Ember's back in its nest.\n\n[Chorus]"
+    },
+    {
+      "id": "grotto",
+      "title": "Into the Blue",
+      "where": "The Tidewater Grotto",
+      "style": "Atmospheric alt-pop, 84 BPM, E minor. Dripping plucked arpeggios with echo, deep toms, airy pads, breathy lead vocal that opens into a soaring 'ahh' choir. Underwater, mysterious, hopeful.",
+      "lyrics": "[Verse 1]\nSalt on my lips and the tide coming in,\nThe cave sings low where the drowned have been,\nA pearl in the deep like a moon underground,\nIt's calling my name without making a sound.\n\n[Chorus]\nDive, dive, into the blue,\nThere's a light in the depths and it's pulling me through,\nRise, rise, out of the wave,\nI'll carry it home from the grotto's grave.\n\n[Bridge]\nAhh... ahh...\nOld Shellback's waiting where the currents turn,\nEvery scar's a lesson that I had to learn.\n\n[Chorus]"
+    },
+    {
+      "id": "boss",
+      "title": "Stand Your Ground",
+      "where": "Boss battles",
+      "style": "Driving arena rock, 132 BPM, E minor. Pounding drums, distorted guitar chugs, gritty bass, shouted 'Hey!' gang vocals, defiant belted chorus. Pure battle energy.",
+      "lyrics": "[Intro]\nHey! Hey!\n\n[Verse]\nFeel the floor begin to tremble,\nFeel the walls begin to crumble,\nI was small but I'm not running,\nI can hear the giant coming.\n\n[Chorus]\nStand your ground, stand your ground, let it roar,\nI've been knocked down, I've been here before,\nStand your ground, raise the blade, make it fall,\nOne heart, one hope, against it all!\n\n[Outro]\nHey! Hey!"
+    },
+    {
+      "id": "calm",
+      "title": "Willowmere",
+      "where": "Title screen and caves",
+      "style": "Gentle folk-pop lullaby, 72 BPM, C major. Soft piano arpeggios, warm pads, a light heartbeat kick, tender lead vocal with hummed harmonies.",
+      "lyrics": "[Verse]\nLanterns on the water, smoke above the pines,\nGrandmother's stories of the better times,\nClose your eyes, little light,\nMorning's coming after night.\n\n[Chorus]\nMmm, Willowmere, Willowmere,\nEvery road leads back to here,\nWhen you're lost and far from home,\nFollow the lanterns, you're not alone."
+    },
+    {
+      "id": "win",
+      "title": "Home Again",
+      "where": "Victory",
+      "style": "Triumphant stadium anthem, 100 BPM, C major. Big stomp-clap drums, bright piano, full 'whoa-oh' choir chorus, celebratory and emotional.",
+      "lyrics": "[Verse]\nRing the bells and ring them loud,\nLift the lanterns to the clouds,\nWe were lost, but now we're found,\nHear the vale come back around.\n\n[Chorus]\nWhoa-oh, we're home again,\nThe fire's lit, the tide's come in,\nWhoa-oh, the night is done,\nWren brought the morning sun!"
+    }
+  ]
+}
